@@ -49,7 +49,7 @@ Use the token to push the branch and create the pull request:
     git switch -c "$branch"
     git add -A
     git commit -m "Example change"
-    git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+    gh auth setup-git
     git push --set-upstream origin "$branch"
     gh pr create --base "$GITHUB_REF_NAME" --head "$branch" --title "Example change" --body "Example change."
 ```
