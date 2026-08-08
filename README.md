@@ -44,8 +44,8 @@ Use the token to push the branch and create the pull request:
     GH_TOKEN: ${{ steps.pr-submit.outputs.token }}
   run: |
     branch="example-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-    git config user.name "github-actions[bot]"
-    git config user.email "github-actions[bot]@users.noreply.github.com"
+    git config user.name "pr-submit[bot]"
+    git config user.email "pr-submit[bot]@users.noreply.github.com"
     git switch -c "$branch"
     git add -A
     git commit -m "Example change"
