@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.2 (2026-08-08)
+
 ### Features
 
 * ✨ Use PR Submit for release PRs. PR [#6](https://github.com/tiangolo/pr-submit/pull/6) by [@tiangolo](https://github.com/tiangolo).

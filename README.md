@@ -33,7 +33,7 @@ Request a token:
 ```yaml
 - name: Get PR Submit token
   id: pr-submit
-  uses: tiangolo/pr-submit@0.0.1
+  uses: tiangolo/pr-submit@0.0.2
 ```
 
 Use the token to push the branch and create the pull request:
