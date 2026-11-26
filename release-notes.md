@@ -16,6 +16,10 @@
 * 📝 Use FastAPI Cloud deployment domain. PR [#5](https://github.com/tiangolo/pr-submit/pull/5) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Show PR Submit commit identity. PR [#4](https://github.com/tiangolo/pr-submit/pull/4) by [@tiangolo](https://github.com/tiangolo).
 
+### Internal
+
+* 🔒️ Generate GH actions workflow lockfile and bump Zizmor. PR [#14](https://github.com/tiangolo/pr-submit/pull/14) by [@YuriiMotov](https://github.com/YuriiMotov).
+
 ## 0.0.1 (2026-08-08)
 
 ### Features
